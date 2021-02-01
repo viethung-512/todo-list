@@ -1,0 +1,119 @@
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 8px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+.btn:focus {
+  outline: none;
+}
+
+.btn.btn--primary {
+  color: #fff;
+  background: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+.btn.btn--primary:hover {
+  background: var(--primary__dark-color);
+  border: 1px solid var(--primary__dark-color);
+}
+
+.btn.btn--secondary {
+  color: #fff;
+  background: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
+}
+.btn.btn--secondary:hover {
+  background: var(--secondary__dark-color);
+  border: 1px solid var(--secondary__dark-color);
+}
+
+.btn.btn--success {
+  color: #fff;
+  background: var(--success-color);
+  border: 1px solid var(--success-color);
+}
+.btn.btn--success:hover {
+  background: var(--success__dark-color);
+  border: 1px solid var(--success__dark-color);
+}
+
+.btn.btn--error {
+  color: #fff;
+  background: var(--error-color);
+  border: 1px solid var(--error-color);
+}
+.btn.btn--error:hover {
+  background: var(--error__dark-color);
+  border: 1px solid var(--error__dark-color);
+}
+
+/* Form */
+.form-control {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.form-control input,
+.form-control select {
+  padding: 5px 10px;
+  border-radius: 4px;
+  height: 32px;
+  width: 100%;
+}
+
+.form-control textarea {
+  width: 100%;
+  border-radius: 4px;
+  padding: 5px 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  outline: none;
+}
+
+.border--light {
+  border: 1px solid var(--text-secondary-color);
+}
+
+.border--bold {
+  border: 1px solid var(--text-primary-color);
+}
+
+.form-control p {
+  color: var(--error-color);
+  font-size: 12px;
+  padding-left: 10px;
+}
+
+/* Flex container */
+.flex-container {
+  display: flex;
+}
+
+.full-width {
+  width: 100%;
+}
+
+/* Spacing */
+.ml-1 {
+  margin-left: 10px;
+}
+.ml-2 {
+  margin-left: 20px;
+}
+.ml-3 {
+  margin-left: 30px;
+}

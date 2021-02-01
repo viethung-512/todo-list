@@ -1,0 +1,56 @@
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.todo-list {
+  width: 100%;
+}
+
+.item {
+  margin-bottom: 20px;
+  box-shadow: 0 0 3px;
+}
+
+.item-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.item-main__info {
+  display: flex;
+  align-items: center;
+}
+
+.item-main__info input {
+  height: 18px;
+  width: 18px;
+  margin-right: 10px;
+}
+
+.item-main__info label {
+  /* max-width: 200px; */
+}
+
+.item-main__actions {
+  display: flex;
+}
+
+@media (max-width: 600px) {
+  .item-main__actions {
+    flex-direction: column;
+  }
+
+  .item-main__actions button:first-child {
+    margin-bottom: 20px;
+  }
+
+  .item-main__actions button:last-child {
+    margin-left: 0;
+  }
+}
+
+.item-action {
+  padding: 20px;
+}
